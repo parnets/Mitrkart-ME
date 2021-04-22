@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    <include layout="@layout/cart_empty"/>-->
+
+    <TextView
+        android:id="@+id/shpp_Emp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="Sub Category"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subcategory_Emp"
+        android:layout_marginTop="@dimen/_80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_15dp"
+        android:paddingLeft="@dimen/_5dp"
+        android:paddingRight="@dimen/_5dp"
+        android:paddingBottom="@dimen/_15dp"
+        android:background="@color/colorLightBrown"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryProduct_Emp"
+        android:layout_below="@id/subcategory_Emp"
+        android:paddingTop="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"/>
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/total_amt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Total Amount Rs 500"
+            />
+        <Button
+            android:layout_weight="2"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/check_out"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="Check out"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

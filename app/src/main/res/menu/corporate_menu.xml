@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/account_cor"
+        android:icon="@drawable/ic_person"
+        android:title="My Account"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_orders_cor"
+        android:icon="@drawable/ic_order"
+        android:title="Your orders"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/orders_history_cor"
+        android:icon="@drawable/ic_order_history"
+        android:iconTint="@color/colorBlack"
+        android:title="Order history"
+        app:showAsAction="never"/>
+
+</menu>

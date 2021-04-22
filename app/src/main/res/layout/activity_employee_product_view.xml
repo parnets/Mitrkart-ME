@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/shpp_cor"
+        android:layout_below="@+id/SliderDots_cor"
+        android:layout_marginTop="@dimen/_50dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="Products"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:id="@+id/product_recyclerview_emp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightBlue"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MERegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_green"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/photoRetailer"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="@drawable/ic_person"-->
+            <!--                android:backgroundTint="@color/colorBlue" />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:text="Add Photo" />-->
+
+
+            <EditText
+                android:id="@+id/etName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etWhatsAppNo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Whats App Number *"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etfather_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Father name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etMailID4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Mail Id *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAddress5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Address *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etVillageName6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etVillage_code7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village Code "
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPincode8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pincode *"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etTaluka9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Taluka *"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etDistrictName10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="District Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAadhaarNumber11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Aadhaar Number *"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEducationQualification12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Education Qualification *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etTwoWheelerDetail13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Two Wheeler Detail *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etTwoWheelerLicenseNo14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Two Wheeler License Number *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etThreeWheelerDetail15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Three Wheeler Detail *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etFourWheelerDetail16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Four Wheeler Detail *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etandroidPhoneName17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Android Phone Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etSalesExperience18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Sales Experience *"
+                android:inputType="number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etBankName19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Bank Name *"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etBranch20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Branch *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etIFSCCode21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="IFSC Code *"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etAccountNumber22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Account Number *"
+                android:padding="14dp" />
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@drawable/ic_person" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="Add Photo *"
+                android:textColor="@color/md_black_1000" />
+
+
+
+
+            <EditText
+                android:id="@+id/etPassword24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Create a New Password *"
+                android:padding="14dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/colorOrange"
+                android:text="REGISTER"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_all_viewcart_Emp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="@dimen/_5dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grid_color_selector"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cart_item_image_Emp"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/cart_item_title_Emp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:maxLines="5"
+                android:text="Product Name"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/cart_item_price_Emp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Price"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rlBtn_Emp"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@drawable/button_round_bg"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_minus10_Emp"
+                    android:layout_width="@dimen/_40dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/md_white_1000" />
+
+                <EditText
+                    android:id="@+id/tv_num10_Emp"
+                    android:layout_width="@dimen/_40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:layout_toRightOf="@+id/tv_minus10_Emp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="@dimen/_20dp" />
+
+                <TextView
+                    android:id="@+id/tv_plus10_Emp"
+                    android:layout_width="@dimen/_40dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_num10_Emp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/md_white_1000" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnUpdatecart_emp"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/button_round_bg"
+                android:text="Update Quantity" />
+
+            <Button
+                android:id="@+id/btn_deletecart_Emp"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/button_round_bg"
+                android:text="Delete cart" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

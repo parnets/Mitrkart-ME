@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.CorporateRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_green"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/photoRetailer"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="@drawable/ic_person"-->
+            <!--                android:backgroundTint="@color/colorBlue" />-->
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:text="Add Photo"/>-->
+
+
+            <EditText
+                android:id="@+id/etOutletName1CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Outlet Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etOwnerName2CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Owner Name *"
+                android:padding="14dp" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/etPhoneNumber3CR"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/edittext_border_bg"-->
+<!--                android:hint="Phone Number"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLength="10"-->
+<!--                android:padding="14dp" />-->
+
+            <EditText
+                android:id="@+id/etWhatsAppNumber4CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="What's App Number *"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etMailID5CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Mail ID *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEmployeeStrength6CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Employee Strength *"
+                android:inputType="number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAddress7CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Address *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPincode8CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pincode *"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etVillageName9CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etVillageCode10CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village code"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAadharNo11CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Aadhar Number *"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etGSTNo12CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="GST Number *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPanNo13CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pan Number *"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etBankName14CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Bank Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etBankAccountNumber15CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Bank Account Number *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etBranch16CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Branch *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etIFSCCode17CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="IFSC Code *"
+                android:padding="14dp" />
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/etPhotoOfCompany18CR"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/edittext_border_bg"-->
+<!--                android:hint="Photo of Company"-->
+<!--                android:padding="14dp" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_15dp"
+                android:text="Add Photo of the Company"
+                android:textColor="@color/colorBlack"/>
+
+            <ImageView
+                android:id="@+id/imgPhotoOfCompany18CR"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_menu_gallery"
+                android:backgroundTint="@color/colorBlack" />
+
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/etDigitalSignature19CR"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@drawable/edittext_border_bg"-->
+            <!--                android:hint="Digital Signature"-->
+            <!--                android:padding="14dp" />-->
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/LiveLocation26"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:drawableLeft="@drawable/ic_location"-->
+            <!--                android:textColor="@color/colorAccent"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@drawable/edittext_border_bg"-->
+            <!--                android:text="  LiveLocation"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:textSize="15dp" />-->
+
+            <!--            <LinearLayout-->
+            <!--                android:orientation="vertical"-->
+            <!--                android:layout_margin="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:background="@drawable/edittext_border_bg">-->
+
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:layout_marginTop="10dp"-->
+            <!--                    android:layout_marginLeft="20dp"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    >-->
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text11"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:text="Latitude : "-->
+            <!--                        android:textColor="@color/colorAccent"-->
+            <!--                        android:layout_height="wrap_content"/>-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text1"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:textColor="@color/colorBlack"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        />-->
+
+            <!--                </LinearLayout>-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:layout_marginLeft="20dp"-->
+            <!--                    android:padding="5dp">-->
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text12"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:text="Longitude : "-->
+            <!--                        android:textColor="@color/colorAccent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        />-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text2"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:textColor="@color/colorBlack"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        />-->
+            <!--                </LinearLayout>-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:layout_marginLeft="20dp"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    >-->
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text13"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:text="Country Name : "-->
+            <!--                        android:textColor="@color/colorAccent"-->
+            <!--                        android:layout_height="wrap_content" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text3"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:textColor="@color/colorBlack"-->
+            <!--                        />-->
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:layout_marginLeft="20dp"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    >-->
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text14"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:text="State Name : "-->
+            <!--                        android:textColor="@color/colorAccent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        />-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text4"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:textColor="@color/colorBlack"-->
+            <!--                        />-->
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:padding="5dp"-->
+            <!--                    android:layout_marginBottom="5dp"-->
+            <!--                    android:layout_marginLeft="20dp">-->
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text15"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:text="Address : "-->
+            <!--                        android:textColor="@color/colorAccent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        />-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/text5"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:textColor="@color/colorBlack"-->
+            <!--                        />-->
+            <!--                </LinearLayout>-->
+            <!--            </LinearLayout>-->
+
+
+
+            <EditText
+                android:id="@+id/etPassword18CR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter New Password *"
+                android:padding="14dp" />
+
+            <Button
+                android:id="@+id/btnCorporateRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/colorOrange"
+                android:text="REGISTER"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_60dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/orders_history_name_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Name"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/orders_history_address_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Full Address"
+                        android:textColor="@color/colorBlack"/>
+
+
+
+                    <TextView
+
+                        android:id="@+id/orders_history_Locality_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Locality"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_Landmark_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Landmark"
+                        android:textColor="@color/colorBlack"/>
+
+
+                    <TextView
+                        android:id="@+id/orders_history_Pincode_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Pincode"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_City_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="City"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_State_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="State"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_Country_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Country"
+                        android:textColor="@color/colorBlack"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60dp">
+
+                        <TextView
+                            android:id="@+id/address_check_Emp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30dp"
+                            android:background="@color/bisque"
+                            android:layout_marginRight="@dimen/_15dp"
+                            android:layout_marginTop="@dimen/_15dp"
+                            android:layout_marginLeft="@dimen/_10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Please check if the address is suitable for collecting delivery"
+                            android:textColor="#000"
+                            android:padding="@dimen/_5dp"
+                            android:textSize="@dimen/_13sp"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70dp">
+
+                        <Button
+                            android:id="@+id/change_address_Emp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_50dp"
+                            android:text="Change or Add Address"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="#fff"
+                            android:layout_marginLeft="@dimen/_15dp"
+                            android:layout_marginTop="@dimen/_15dp"
+                            android:layout_marginRight="@dimen/_15dp"
+                            android:layout_marginBottom="@dimen/_15sp"
+                            android:background="#1E88E5" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recy_view_cart_place_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@color/colorLightBlue"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_weight="0.15"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5dp"
+                    android:paddingBottom="@dimen/_5dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:text="PRICE DETAILS"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15dp"
+                    android:textColor="@color/md_logo_orange"/>
+
+                <TextView
+                    android:id="@+id/delivery_charges_notification_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="2dp"
+                    android:text="Cash On Delivery"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/_16dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/delivery_charge_amount_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:text="Delivery Charge "
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/delivery_price_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:gravity="right"
+                    android:textColor="#228B22"
+                    android:textStyle="bold"
+                    android:text="Free "
+                    android:layout_marginLeft="@dimen/_230dp"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/payable_amount_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:text="Total Amount "
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/_15dp"/>
+
+                <TextView
+                    android:id="@+id/payable_price_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Price"
+                    android:layout_marginLeft="@dimen/_220dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/md_grey_400"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <Button
+                android:id="@+id/btnonfirm_order_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp"
+                android:layout_marginLeft="@dimen/_160dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:background="#ff6500"
+                android:inputType="text"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="Confirm Order" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    <include layout="@layout/fragment_placeorder"/>-->
+
+</LinearLayout>
+
+

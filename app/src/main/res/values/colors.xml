@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="DarkGreen">#2E7A1D</color>
+    <color name="colorLightBrown">#ffcccc</color>
+
+    <color name="colorBlue">#0099ff</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#ff6600</color>
+
+    <color name="red">#ff2700</color>
+
+    <color name="colorSC_white">#FFFFFF</color>
+    <color name="green">#9dff86</color>
+    <color name="menuBackground">#40555A</color>
+    <color name="menuText">#6d8287</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="colorTextLight">#666666</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_100">#f5f5f5</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_400">#bdbdbd</color>
+    <color name="md_grey_300">#e0e0e0</color>
+    <color name="md_yellow_600">#fdd835</color>
+    <color name="md_pink_600">#E2E2DE</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_logo_orange">#EB7E30</color>
+    <color name="dark_orange">#DA6613</color>
+    <color name="dark_wine">#800020</color>
+    <color name="colorPink">#e23365</color>
+    <color name="darkslategray3">#79CDCD</color>
+    <color name="colorPinkyDark">#ba2255</color>
+    <color name="Vivid_Cerulean">#00A8E0</color>
+    <color name="flight_jacket">#b2b2ff</color>
+    <color name="cranberry_jello">#F54D70</color>
+    <color name="brownochre">#87421F</color>
+    <color name="turquoiseblue">#00C78C</color>
+    <color name="blue_velvet">#162252</color>
+    <color name="alaska_sky">#1B3F8B</color>
+    <color name="peacock">#33A1C9</color>
+    <color name="Background_white">#f7f7f7</color>
+
+    <color name="colorLightBlack">#606868</color>
+
+    <color name="colorSkin">#ECC4C4</color>
+
+    <color name="Green">#20ff6a</color>
+    <color name="orange">#60FF9800</color>
+    <color name="bisque">#FFE4C4</color>
+
+    <!-- Line -->
+    <color name="colorLine">#e0e0e0</color>
+    <color name="main_color_grey_100">#f4f5f5</color>
+    <color name="main_color_500">#fdfbfd</color>
+    <color name="main_color_grey_300">#e0e0e0</color>
+    <color name="material_red_900">#b62025</color>
+
+
+
+
+    <color name="colorLightBlue">#34CBDD</color>
+    <color name="colorYellow">#CDDC39</color>
+
+    <color name="colorLightWhite">#CDC3C3</color>
+
+    <color name="colorRed">#F0E11919</color>
+    <color name="colorNew">#EFB4C8</color>
+    <color name="colorLightGreen">#7DE363</color>
+    <color name="colorGreen">#346A26</color>
+    <color name="colorGrey">#585858</color>
+</resources>

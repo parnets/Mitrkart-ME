@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activity.TermsConditionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:text="Term and Conditions"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:text="By downloading or using the Mobile Application called MITRAKARTE, these terms and conditions contained herein will automatically apply to you. By accessing the App, you (hereinafter referred to as “You” or “retailer”) are agreeing to comply with and be bound by the following terms of use."
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:text="By downloading or using the Mobile Application called MITRAKARTE, these terms and conditions contained herein will automatically apply to you. By accessing the App, you (hereinafter referred to as “You” or “retailer”) are agreeing to comply with and be bound by the following terms of use."
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="10dp"
+                android:text="ACCEPTANCE OF AGREEMENT"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:text="This Agreement constitutes the entire and only agreement between You and Aziure Aggregate Access Private Limited, having its address at No.135/43,44, 3rd Floor, Vinayaka layout, Sadashiva Nagara, Nelamangala Town, Nelamangala, Bangalore Rural- 562123 Karnataka (hereinafter referred to as “Us” or “Aziure Aggregate Access Private Limited”) and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the App, the content, products or services provided by or through the App, and the subject matter of this Agreement. This agreement maybe amended from time to time without specific notice to you. The latest Agreement will be posted on the Mobile Application, and you should review this Agreement prior to using the mobile Application."
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="10dp"
+                android:text="MITRAKARTE AS A PLATFORM"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:text="Mitrakarte is a mobile application (hereinafter referred to as “App”) platform through which you can procure various products distributed by Aziure Aggregate Access Private Limited and redistribute to the retailers in the specified location at the prescribed retailer price."
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="10dp"
+                android:text="ELIGIBILITY"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) Use of this App is available only to persons who are eligible to execute a legal contract. If you are a minor under the age of 18 years, you shall not use this App."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) Use of this App is available only to the registered traders who have valid trading licenses and has an complete distribution setup and Infrastructure like Warehouse, Vehicles in the distributor enrollment form duly filled by now. The information provided by you viz. your name, address, telephone number, GST number, trade licenses etc are correct."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(3) Aziure Aggregate Access Private Limited reserves the right to terminate your access to the App, if it is brought to Aziure Aggregate Access Private Limited’s notice that you are under the age of 18 years or the information about you and your business, filled by you while signup of this App is inaccurate or incomplete."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:text="DOING BUSINESS USING MITRAKARTE"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) This App can be downloaded from play store or access link and installed in your mobile phones. At the time of registration, you shall be required to share the information which may include personal information including but not limited to information regarding your name, Firm name, mobile number, E-mail address, pin code, photo and GST number and other relevant details. Once these initial information is provided, your mobile number will be verified. You agree that the information provided by you shall always be accurate, correct and complete. If the information you have provided is false, Aziure Aggregate Access Private Limited reserves the right to terminate your access to the App in addition to any other legal remedies. You shall be responsible for maintaining the confidentiality of the user name and password."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) You are responsible for all activities occurring under your user account and you agree to report to Aziure Aggregate Access Private Limited any such illegal use of your login account by any third party without your consent."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(3) Aziure Aggregate Access Private Limited reserves the right to cancel, without prior notice, any account registration if Aziure Aggregate Access Private Limited discovers or suspects that your username or password is being used by third parties, regardless of whether same is actually used or not. Aziure Aggregate Access Private Limited will not be liable for any loss that you may incur as a result of third party using your account, username or password, either with or without your knowledge. However, you could be held liable for losses incurred by Aziure Aggregate Access Private Limited or another party due to a third party using your account, username or password."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(4) You will provide Aziure Aggregate Access Private Limited with full and complete cooperation at all times, for the completion of the services or in the event of malfunction, non-function, or unauthorized use of the App. You will promptly notify Aziure Aggregate Access Private Limited of any error in the App or any problem that comes to your attention affecting the viewing of the digital contents."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(5) By using this App, You are allowed to give purchase orders of various products distributed by Aziure Aggregate Access Private Limited and displayed in the Mitrakarte Mobile Application."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(6) The payment for the items ordered should be made immediately or while taking delivery.
+
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(7) The products, logos and trademarks of the respective products are owned by the respective manufacturers and Aziure Aggregate Access Private Limited, is merely a distributor of the products listed therein. Aziure Aggregate Access Private Limited is not a manufacturer, and has no liabilities in relation to the products distributed and will not assume any liabilities in relation to product liabilities, defect liabilities, damages or any other claims."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(8) The price shown in the application is the price of the retailer and that has to pay to Aziure Aggregate Access Private Limited. The same is lesser than the MRP of the product. The price shown in each item is inclusive of the GST applicable on the product. The distributor should provide GST numbers in order to enable Aziure Aggregate Access Private Limited to file GST returns. Any wrongful submissions of GST number may disentitle you from claiming input credits and Aziure Aggregate Access Private Limited will not be liable for such losses."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(9) You are also required to provide accurate delivery address on which the product can be delivered. Generally, Products will be delivered within 48 hours. This is merely an indicative time for delivery. You agree that goods shall be delivered by us only during the working hours. Delay could happen because of strike, failure of the manufacturer to supply the products or other unforeseen force majeure circumstances. You are not eligible to claim any damages against Aziure Aggregate Access Private Limited for delay in delivery."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(10) Goods will be delivered to the address that you provide. You can transfer and maintain the balance in your distributor wallet and make transtactions. You are required to immediately make payment as per the invoice unless paid earlier. For any reason, you fail to make the payment at the time of delivery of goods, Aziure Aggregate Access Private Limited reserve the right to take back the goods."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(11) You understand and acknowledge that any order you place shall be subject to terms and conditions set forth in this agreement, product availability and delivery location serviceability etc. You may not be able to avail our services if your delivery location is outside our current scope of service."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(11) You understand and acknowledge that any order you place shall be subject to terms and conditions set forth in this agreement, product availability and delivery location serviceability etc. You may not be able to avail our services if your delivery location is outside our current scope of service."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(13) Aziure Aggregate Access Private Limited reserves the right to cancel your order in the event that the designated address falls outside the delivery service area offered by us, non payment or delayed payment, unavailability of all the items ordered by you at the time of placing the order etc."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(14) You agree not to use this App in any unlawful manner, for any unlawful purpose, or in any manner inconsistent with this agreement or act fraudulently or maliciously, for instance, by hacking into or inserting malicious code, including viruses, or harmful data, into the hardware. You also agree not to transmit any material that is defamatory or offensive and not to use the service in a way that could damage, disable, overburden, impair or compromise the services of the Aziure Aggregate Access Private Limited."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:textSize="@dimen/_16dp"
+                android:text="DOING BUSINESS USING MITRAKARTE"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) Copyright: The content, organization, graphics, design, compilation, related to the Mobile Application are protected under applicable copyrights, trademarks and other proprietary (including but not limited to intellectual property) rights. The copying, redistribution, use or publication by you of any such matters or any part of the App, is strictly prohibited. You do not acquire ownership rights to any content, document or other materials viewed through the App.    "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) Trademarks: The word Mitrakarte, Mitrakarte logo and all the textual, graphical and other contents appearing on this App, unless otherwise specified, are property of Aziure Aggregate Access Private Limited. The products displayed and the corresponding brand names belongs to the respective manufacturers."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:textSize="@dimen/_16dp"
+                android:text="PERMITTED USE"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="As a user of this App, you are given a revocable, nontransferable and nonexclusive right to download and install a copy of the Application on a mobile device that you own or control provided that (1) no text, graphics or other content available from this app is modified in any way; (2) no graphics available from this Application are used, copied or distributed separate from accompanying text; (3) no content available from this Application may be used for any purpose which is offensive or which disparages, damages or otherwise negatively reflects upon Aziure Aggregate Access Private Limited, its products or services, its employees or its management. Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or other grant of right to use any patent, copyright, trademark or other intellectual property of Aziure Aggregate Access Private Limited or of any third party, except as expressly provided herein."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) EDITING, DELETING AND MODIFICATION: Aziure Aggregate Access Private Limited reserve the right in their sole discretion to edit or delete any documents, information, products, services, or other content appearing on the App."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) DISCLAIMER: Reasonable efforts are taken to ensure the accuracy and integrity of information, features, and related materials provided by Aziure Aggregate Access Private Limited on this App, but Aziure Aggregate Access Private Limited is not responsible for misprints, out-of-date information, technical or pricing inaccuracies, typographical or other errors appearing on this App."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(3) AMENDS: Information and related materials in this App are subject to change, modification, deletion, addition, restrict use, etc. by Aziure Aggregate Access Private Limited without notice. Any use of the App thereafter by you shall be deemed to be acceptance of the new Terms of Use."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="LIMITATION OF LIABILITY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) THE INFORMATION FROM OR THROUGH THE APP IS PROVIDED ''AS IS,'' ''AS AVAILABLE,'' AND ALL WARRANTIES, EXPRESS OR IMPLIED, ARE DISCLAIMED (INCLUDING, BUT NOT LIMITED TO, THE DISCLAIMER OF ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE). THE INFORMATION AND SERVICES MAY CONTAIN BUGS, ERRORS, PROBLEMS OR OTHER LIMITATIONS. AZIURE AGGREGATE ACCESS PRIVATE LIMITED HAVE NO LIABILITY WHATSOEVER FOR YOUR USE OF ANY INFORMATION OR SERVICE. IN PARTICULAR, BUT NOT AS A LIMITATION THEREOF, AZIURE AGGREGATE ACCESS PRIVATE LIMITED IS NOT LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS, LOSS OF PROFITS, LITIGATION, OR THE LIKE), WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE NEGATION OF DAMAGES SET FORTH ABOVE IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE AGREEMENT BETWEEN AZIURE AGGREGATE ACCESS PRIVATE LIMITED AND YOU. THIS APP AND THE INFORMATION WOULD NOT BE PROVIDED WITHOUT SUCH LIMITATIONS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM AZIURE AGGREGATE ACCESS PRIVATE LIMITED THROUGH THIS APP SHALL CREATE ANY WARRANTY, REPRESENTATION OR GUARANTEE NOT EXPRESSLY STATED IN THIS AGREEMENT."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) ALL RESPONSIBILITY OR LIABILITY FOR ANY DAMAGES CAUSED BY VIRUSES CONTAINED WITHIN THE ELECTRONIC FILE CONTAINING THE FORM OR DOCUMENT IS DISCLAIMED. AZIURE AGGREGATE ACCESS PRIVATE LIMITED WILL NOT BE LIABLE TO YOU FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OF ANY KIND THAT MAY RESULT FROM USE OF OR INABILITY TO USE THIS APP."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="INDEMNITY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="You hereby agree to indemnify and hold harmless Aziure Aggregate Access Private Limited and its directors, employees and agents against any claims, losses or costs arising from your breach of the terms of use and violation of any applicable laws, rules or regulations related to the use of this App."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="MISCELLANEOUS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) Aziure Aggregate Access Private Limited allow access to or advertise third-party merchant’s products. You understand that Aziure Aggregate Access Private Limited does not own the products or services offered by Third Party Merchants."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) The information you provided for login in to the App including your personal information, business information will be used by Aziure Aggregate Access Private Limited for its internal business purposes. You hereby consent to use such information. The goods you purchase through the App, the kind, quality, number and the frequency etc will be used for analytic purposes and may also be used and shared with respective manufactures for them to predict and plan their manufacturing process. You hereby consent all such usage."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(3) Aziure Aggregate Access Private Limited has an established privacy practices and the same is available at Bizom.in/PrivacyPolicy.pdf The use of this App is subject to the privacy policy mentioned herein.
+
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(4) While using this App, if the payment gateways or internet banking or UPIs, debit or credit cards are used, then such uses of banking channels and settlement systems are subject to the respective rules and regulations of those service providers. Aziure Aggregate Access Private Limited has no control over the same."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(5) Mitrakarte services are not available outside India. If you are user living outside India, these services will not applicable. Further, Aziure Aggregate Access Private Limited has service capabilities only in selected cities in India. If you are doing business outside this area, this App will be of no use."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(6) A registered user of this App if moved to different location which is not a Aziure Aggregate Access Private Limited service area then you will not be able to use this App at the new location."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(7) The goods ordered by you will be delivered by our own or outsourced logistic partners of Aziure Aggregate Access Private Limited. The details of the same shall be intimated to you in due course. Aziure Aggregate Access Private Limited has the right to replace or appoint new transporters. You accept to receive the goods from the respective logistic partners appointed by Aziure Aggregate Access Private Limited time to time for your area."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="NO WARRANTIES"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="The App is provided subject to all of the terms set forth herein. Aziure Aggregate Access Private Limited does not warrant that:
+
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(i) its App will be constantly available, or available at all
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(ii) the information in this App or results of the use of the application is complete, true, accurate. Aziure Aggregate Access Private Limited does not warrant that the Application is free of defects or errors.
+
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="NO WARRANTIES"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="Aziure Aggregate Access Private Limited will raise an invoice upon the acceptance of valid purchase order. You are required to make the payment immediately to the representative of Aziure Aggregate Access Private Limited at the time of delivery of goods if not paid while ordering."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="The price of the product is subject to change without prior notice to you subject to market conditions, rules, regulations etc. The price of the product is provided on the Mobile application on 'as is' basis as provided by the Manufacturing Companies. Due to technical reasons or sudden changes made by the manufacturer or the Government there may be variations in the price of the product and price displayed in the App. Aziure Aggregate Access Private Limited shall take its best endeavors to correct such variations at the earliest opportunity. You may however, be aware that such variations could happen."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="You shall be responsible for the payment of applicable GST and all other taxes and any default in this regard you shall be the solely liable. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="TERMINATION"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="At any time in its sole discretion Aziure Aggregate Access Private Limited may suspend or terminate your access to this App for any reason with or without notice to you. You acknowledge Aziure Aggregate Access Private Limited’s right to do so and waive any claim you may have arising from such termination. By downloading this App, you are not getting any permanent rights to avail Mitrakarte and Aziure Aggregate Access Private Limited services.
+
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="WAIVER"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="The waiver by either party of any breach or failure to enforce any of the terms and conditions of this Agreement at any time shall not in any way affect, limit, or waive such party’s right thereafter to enforce and compel strict compliance with every term and condition of this Agreement."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="GOVERNING LAW AND JURISDICTION"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(1) Governing Law: The laws of India as applicable to the State of Karnataka, without reference to conflict of law rules, govern this Agreement and any dispute of any sort that might arise between Aziure Aggregate Access Private Limited and Distributor. Subject to arbitration clause below, any dispute arising out of or in relation to this agreement shall be submitted to exclusive jurisdiction of courts at Bangalore."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="(2) Arbitration: In the event of any dispute arising out of or in relation to this Agreement, the Parties shall try and resolve the dispute amicably in good faith through negotiations. In case the dispute is not resolved within a reasonable time, the Parties agree to submit the same for arbitration by a single Arbitrator appointed by the Court. The arbitration proceedings shall be governed by the provisions of the Arbitration and Conciliation Act, 1996. Arbitration proceedings shall be conducted in the English language and the venue shall be at Bangalore. The arbitration award shall be final and binding on the Parties."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/colorBlack"
+                android:text="QUERY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:justificationMode="inter_word"
+                android:textSize="14dp"
+                android:text="If you have any query regarding these terms of use or require any information. Kindly contact us on info@aziureaggregateaccess.com
+
+"/>
+
+           <!-- <Button
+                android:id="@+id/btn_back_retailer_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20dp"
+                android:text="Back"
+                android:background="@drawable/button_round_bg"/>
+
+
+-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    -->
+<!--                    android:id="@+id/address_all_k"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    card_view:cardCornerRadius="2dp"-->
+<!--                    card_view:cardElevation="1dp"-->
+<!--                    card_view:cardUseCompatPadding="true">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/grid_color_selector"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:layout_marginLeft="@dimen/_5dp">-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_name_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="Name"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_number_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="number"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_email_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="email"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_locality_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="locality"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_landmark_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="landmark"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_address_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="5"-->
+<!--                            android:text="address"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_city_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="city"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_state_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="state"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_country_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="country"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/address_pin_k1"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:ellipsize="marquee"-->
+<!--                            android:maxLines="3"-->
+<!--                            android:text="pin"-->
+<!--                            android:textColor="@color/alaska_sky"-->
+<!--                            android:textSize="14dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:visibility="visible" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/select_delivery_address_k1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="@dimen/_40dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/button_round_bg"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="@dimen/_18dp"-->
+<!--                            android:layout_marginLeft="@dimen/_50dp"-->
+<!--                            android:layout_marginTop="@dimen/_20dp"-->
+<!--                            android:layout_marginRight="@dimen/_50dp"-->
+<!--                            android:layout_marginBottom="@dimen/_20dp"-->
+<!--                            android:text="Select Delivery Address"-->
+<!--                            android:textColor="@color/md_white_1000"/>-->
+
+
+<!--                    </LinearLayout>-->
+
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/orders_history_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Name"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_20dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/orders_history_address"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full Address"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/orders_history_Locality"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Locality"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_Landmark"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Landmark"/>
+
+
+                    <TextView
+                        android:id="@+id/orders_history_Pincode"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_City"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_State"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="State"/>
+
+                    <TextView
+                        android:id="@+id/orders_history_Country"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Country"/>
+
+
+
+<!--                    <androidx.recyclerview.widget.RecyclerView-->
+<!--                        android:id="@+id/choosen_delivery_address"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="@dimen/_20dp">-->
+
+<!--                    </androidx.recyclerview.widget.RecyclerView>-->
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60dp">
+
+                        <TextView
+                            android:id="@+id/address_check"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30dp"
+                            android:background="@color/bisque"
+                            android:layout_marginRight="@dimen/_5dp"
+                            android:layout_marginTop="@dimen/_15dp"
+                            android:layout_marginLeft="@dimen/_5dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Please check if the address is suitable for collecting delivery"
+                            android:textColor="#000"
+                            android:maxLines="2"
+                            android:padding="@dimen/_5dp"
+                            android:textSize="@dimen/_13sp"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70dp">
+
+                        <Button
+                            android:id="@+id/change_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_50dp"
+                            android:text="Change or Add Address"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="#fff"
+                            android:layout_marginLeft="@dimen/_15dp"
+                            android:layout_marginTop="@dimen/_15dp"
+                            android:layout_marginRight="@dimen/_15dp"
+                            android:layout_marginBottom="@dimen/_15sp"
+                            android:background="#1E88E5" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/view_cart2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@color/colorLightBlue">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+            <!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="@dimen/_150dp"-->
+<!--                    app:cardCornerRadius="5dp"-->
+<!--                    app:cardBackgroundColor="@color/md_white_1000"-->
+<!--                    app:cardElevation="5dp"-->
+<!--                    android:layout_marginBottom="10dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/RL_view"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/_150dp"-->
+<!--                        android:background="@color/md_white_1000"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:layout_gravity="center_vertical">-->
+
+<!--                        <ImageView-->
+<!--                            android:id="@+id/cart_img"-->
+<!--                            android:layout_width="99dp"-->
+<!--                            android:layout_height="74dp"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:background="@drawable/apple_img"-->
+<!--                            android:layout_marginLeft="@dimen/_5dp"-->
+
+<!--                            android:layout_marginTop="@dimen/_5dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tv_protitle"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_below="@+id/cart_img"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:fontFamily="sans-serif"-->
+<!--                            android:text="Apple"-->
+<!--                            android:paddingLeft="@dimen/_5dp"-->
+<!--                            android:textColor="@color/md_black_1000"-->
+<!--                            android:textSize="15sp" />-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tv_proprice"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Rs.150"-->
+<!--                            android:paddingLeft="@dimen/_5dp"-->
+<!--                            android:fontFamily="sans-serif"-->
+<!--                            android:textColor="@color/colorPrimary"-->
+<!--                            android:layout_below="@+id/tv_protitle"-->
+<!--                            android:layout_marginTop="0dp"-->
+<!--                            android:textSize="15sp"-->
+<!--                            android:textStyle="bold"/>-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:id="@+id/rlBtn"-->
+<!--                            android:layout_width="120dp"-->
+<!--                            android:layout_height="40dp"-->
+<!--                            android:layout_marginRight="15dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:layout_marginLeft="@dimen/_250dp"-->
+<!--                            android:layout_marginTop="70dp"-->
+<!--                            android:background="@drawable/button_round_bg">-->
+
+<!--                            <TextView-->
+<!--                                android:gravity="center"-->
+<!--                                android:layout_centerVertical="true"-->
+<!--                                android:id="@+id/tv_minus"-->
+<!--                                android:layout_width="25dp"-->
+<!--                                android:fontFamily="sans-serif"-->
+<!--                                android:layout_height="25dp"-->
+<!--                                android:textColor="@color/md_white_1000"-->
+<!--                                android:text="-"/>-->
+<!--                            <EditText-->
+<!--                                android:id="@+id/tv_num"-->
+<!--                                android:layout_width="45dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:padding="5dp"-->
+<!--                                android:layout_toRightOf="@+id/tv_minus"-->
+<!--                                android:background="@null"-->
+<!--                                android:textSize="@dimen/_20dp"-->
+<!--                                android:gravity="center"-->
+<!--                                android:textColor="@color/md_black_1000"-->
+<!--                                android:fontFamily="sans-serif"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:inputType="number"-->
+<!--                                android:imeOptions="actionDone"-->
+<!--                                android:text="1"-->
+<!--                                android:maxLength="4" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv_plus"-->
+<!--                                android:layout_toRightOf="@+id/tv_num"-->
+<!--                                android:gravity="center"-->
+<!--                                android:layout_centerVertical="true"-->
+<!--                                android:fontFamily="sans-serif"-->
+<!--                                android:layout_width="25dp"-->
+<!--                                android:textColor="@color/md_white_1000"-->
+<!--                                android:layout_height="25dp"-->
+<!--                                android:text="+"/>-->
+<!--                        </RelativeLayout>-->
+
+<!--                    </RelativeLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_weight="0.15"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5dp"
+                    android:paddingBottom="@dimen/_5dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:text="PRICE DETAILS"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15dp"
+                    android:textColor="@color/md_logo_orange"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5dp"
+                    android:paddingBottom="@dimen/_5dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:text="Cash On Delivery"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15dp"
+                    android:textColor="@color/md_logo_orange"/>
+<!--                <TextView-->
+<!--                    android:id="@+id/delivery_charges_notification"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text="Delivery charges applicable for below 1000Rs "-->
+<!--                    android:textColor="@color/md_logo_orange"-->
+<!--                    android:textSize="14sp" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10dp">
+
+                <TextView
+                    android:id="@+id/delivery_charge_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:text="Delivery Charge "
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/delivery_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:gravity="right"
+                    android:textColor="#228B22"
+                    android:textStyle="bold"
+                    android:text="Free "
+                    android:layout_marginLeft="@dimen/_230dp"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10dp">
+
+                <TextView
+                    android:id="@+id/delivery_total_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Total Price "
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/_15sp"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:gravity="right"
+                    android:text="Rs. 150 "
+                    android:textColor="#000"
+                    android:paddingRight="@dimen/_5dp"
+                    android:textStyle="normal"
+                    android:layout_marginLeft="280dp"
+                    android:textSize="@dimen/_15sp"/>
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/md_grey_400"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/RadioButton_PayNow"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_5dp"-->
+<!--                android:paddingLeft="10dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="@dimen/_25dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#228B22"-->
+<!--                    android:text="You wil save Rs.999 on this order">-->
+
+<!--                </TextView>-->
+
+
+
+<!--            </LinearLayout>-->
+
+            <Button
+                android:id="@+id/btnonfirm_order"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp"
+                android:layout_marginLeft="@dimen/_160dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:background="#ff6500"
+                android:inputType="text"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="Confirm Order" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    <include layout="@layout/fragment_placeorder"/>-->
+
+</LinearLayout>
+
+

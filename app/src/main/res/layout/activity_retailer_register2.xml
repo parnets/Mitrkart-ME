@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.RetailerRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_brown_mobile_otp_bg"
+            android:orientation="vertical">
+
+<!--            <ImageView-->
+<!--                android:id="@+id/photo_Retailer1R"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/ic_person"-->
+<!--                android:backgroundTint="@color/colorBlue" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:text="Add Photo"/>-->
+
+
+            <EditText
+                android:id="@+id/etFirmName1R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_25dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Firm Name *"
+                android:padding="14dp"
+                />
+
+            <EditText
+                android:id="@+id/etProprietorPartnership2R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Proprietor/Partnership *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etProprietorPartnersName3R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Proprietor/Partner’s name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etTypeOfOutlet4R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Type of Outlet *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etGSTNo5R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="GST No *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAadharNo6R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Aadhar No *"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPanNo7R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pan No *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etVillageName8R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etVillageCode9R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Village code "
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etTaluk10R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Taluka *"
+                android:padding="14dp" />
+
+
+
+            <EditText
+                android:id="@+id/etDistrictName11R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="District Name *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/et1State12R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="State *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPincode13R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pincode *"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAddressWithLandmark14R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Address with Landmark *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etResidentialAddress15R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Residential Address *"
+                android:padding="14dp" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/etPermanentContactNo16R"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/edittext_border_bg"-->
+<!--                android:hint="Permanent Contact Number"-->
+<!--                android:padding="14dp" />-->
+
+            <EditText
+                android:id="@+id/etAlternateContactNo17R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Alternate Contact Number *"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etWhatsAppNo18R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="What's app Number *"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etMailID19R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Mail ID *"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etBankName20R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Bank Name "
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAccountNumber21R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Account Number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etIFSCCode22R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="IFSC Code"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etBranch23R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Branch"
+                android:padding="14dp" />
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/etFingerPrint24"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@drawable/edittext_border_bg"-->
+            <!--                android:hint="Finger Print"-->
+            <!--                android:padding="14dp" />-->
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/chkAccpetTerms24R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="@dimen/_20dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_TermsAndConditions25R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:text="Accept Terms And Conditions *"
+                android:textColor="@color/colorBlue"
+                android:padding="14dp" />
+
+              </LinearLayout>
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/LiveLocation26"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@drawable/edittext_border_bg"-->
+            <!--                android:hint="LiveLocation"-->
+            <!--                android:padding="14dp" />-->
+
+            <TextView
+                android:id="@+id/LiveLocation26R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_location"
+                android:textColor="@color/colorAccent"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:text="Click to Get Live Location *"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_border_bg">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:text="Latitude : "
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:text="Longitude : "
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:text="Country Name : "
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="wrap_content"
+                        android:text="State Name : "
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp">
+
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:text="Address : "
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/etPassword27R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Create a New Password *"
+                android:padding="14dp" />
+
+            <Button
+                android:id="@+id/btnRetailerRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_round_bg"
+                android:text="REGISTER"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

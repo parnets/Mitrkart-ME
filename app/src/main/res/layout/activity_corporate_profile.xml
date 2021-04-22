@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peacock"
+    android:orientation="vertical"
+    tools:context=".Activity.RetailerRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginBottom="@dimen/_100dp"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/photo_Retailer1R"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="@drawable/ic_person"-->
+            <!--                android:backgroundTint="@color/md_grey_300" />-->
+
+
+            <TextView
+                android:id="@+id/profileOutletName_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/_5dp"
+                android:paddingTop="@dimen/_20dp"
+                android:text=" outlet_name"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/_30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:text="mobile"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileMobile_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="mobile"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="password"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profilePassword_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="password"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="mail_id"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileMail_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="mail_id"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:background="@color/md_grey_300" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="@dimen/_10dp"-->
+<!--                android:layout_marginRight="@dimen/_20dp"-->
+<!--                android:maxLines="2"-->
+<!--                android:text="outlet_name"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textSize="@dimen/_16dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/profileOutletName_cor"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="@dimen/_5dp"-->
+<!--                android:layout_marginRight="@dimen/_20dp"-->
+<!--                android:layout_marginBottom="@dimen/_5dp"-->
+<!--                android:maxLines="2"-->
+<!--                android:text="outlet_name"-->
+<!--                android:textColor="@color/md_grey_300"-->
+<!--                android:textSize="@dimen/_16dp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@color/md_grey_300" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="owner_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileOwnerName_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="owner_name"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="whatsapp_no"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileWhatsapp_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="whatsapp_no"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="employee_strength"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileEmpStrength_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="employee_strength"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="address"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileAddress_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="address"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="pincode"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profilePincode_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="pincode"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="village_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_village_name_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="village_name"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="village_code"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+            <TextView
+                android:id="@+id/profile_village_code_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="village_code"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="aadhaar_no"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+            <TextView
+                android:id="@+id/profile_aadhaar_no_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="aadhaar_no"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="gst_no"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+            <TextView
+                android:id="@+id/profile_gst_no_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="gst_no"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="pan_no"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+            <TextView
+                android:id="@+id/profile_pan_no_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="pan_no"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="bank_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/profile_bank_name_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="bank_name"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="acccount_number"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+            <TextView
+                android:id="@+id/profile_acccount_number_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="acccount_number"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="branch"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+            <TextView
+                android:id="@+id/profile_branch_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="branch"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="ifsc_code"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+            <TextView
+                android:id="@+id/profile_ifsc_code_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="ifsc_code"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+            <Button
+                android:id="@+id/btnUpdateProfile_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_40dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/md_grey_300"
+                android:text="Edit Profile"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_below="@+id/btnUpdateProfile_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="For Queries: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:text="Contact mitrakarte"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_phone"
+                android:text="   080-2963 1899"
+                android:textAllCaps="true"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_email"
+                android:text="   info@mitrakarte.com"
+                android:textAllCaps="true"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_60dp"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/ic_website"
+                android:text="   http://mitrakart.com/"
+                android:textAllCaps="false"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:orientation="vertical"-->
+<!--            >-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:background="@color/md_grey_300" />-->
+
+<!--            <TextView-->
+<!--                android:layout_below="@+id/btnUpdateProfile_cor"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="For Queries: "-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:text="Contact mitrakarte"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:autoLink="phone"-->
+<!--                android:drawableLeft="@drawable/ic_phone"-->
+<!--                android:text="   080-2963 1899"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColorLink="@color/md_black_1000"-->
+<!--                android:textIsSelectable="false"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:autoLink="phone"-->
+<!--                android:drawableLeft="@drawable/ic_email"-->
+<!--                android:text="   info@mitrakarte.com"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColorLink="@color/md_black_1000"-->
+<!--                android:textIsSelectable="false"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="@dimen/_5dp"-->
+<!--                android:autoLink="web"-->
+<!--                android:drawableLeft="@drawable/ic_website"-->
+<!--                android:text="   http://mitrakart.com/"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColorLink="@color/md_black_1000"-->
+<!--                android:textIsSelectable="false"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--        </LinearLayout>-->
+
+    </ScrollView>
+
+</LinearLayout>

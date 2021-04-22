@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_blue_mobile_otp_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="@dimen/_30dp"
+            android:layout_marginRight="@dimen/_30dp"
+            android:background="@drawable/mitrakarte_logo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:gravity="center"
+            android:text="Corporate Registration"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/_20dp" />
+
+        <EditText
+            android:id="@+id/reg_mobile_corporate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/border"
+            android:hint="Mobile number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textColor="@color/md_black_1000"
+            android:textColorHint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tv_reg_mobile_cor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textColorHint="@color/colorBlack" />
+
+
+        <EditText
+            android:id="@+id/reg_otp_corporate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/border"
+            android:hint="OTP"
+            android:inputType="number"
+            android:maxLength="6"
+            android:padding="15dp"
+            android:textColor="@color/md_black_1000"
+            android:textColorHint="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/otp_submit_corporate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/button_round_bg"
+            android:backgroundTint="@color/colorBlue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="SUBMIT"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/resend_otp_cor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_60dp"
+            android:layout_marginRight="@dimen/_60dp"
+            android:background="@drawable/button_round_bg"
+            android:gravity="center"
+            android:padding="@dimen/_5dp"
+            android:text="Resend Otp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

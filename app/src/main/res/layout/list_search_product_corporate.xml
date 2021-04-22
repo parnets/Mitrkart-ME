@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_all_productproduct4_search_cor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/category_item_imageproduct4_search_cor"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_80dp"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/category_item_titleproduct4_search_cor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:maxLines="2"
+                android:text="ProductNae"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/category_item_titleproductQuantity4_search_cor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="@dimen/_10dp"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:text="Unit"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="Price ₹"
+                    android:textColor="@color/DarkGreen"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/category_distriprice_search_cor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:ellipsize="marquee"
+                    android:maxLines="2"
+                    android:text="Price"
+                    android:textColor="@color/DarkGreen"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="marquee"
+                    android:maxLines="2"
+                    android:text="MRP  ₹"
+                    android:textColor="@color/red"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvp_mrp_search_cor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="marquee"
+                    android:maxLines="2"
+                    android:background="@drawable/strike_through"
+                    android:text="Price"
+                    android:textColor="@color/red"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/rlBtn_search_cor"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_50dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/colorBlue"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_minus4_search_cor"
+                    android:layout_width="@dimen/_35dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/md_white_1000" />
+
+                <EditText
+                    android:id="@+id/tv_num4_search_cor"
+                    android:layout_width="@dimen/_40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_minus"
+                    android:background="@null"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="@dimen/_20dp" />
+
+                <TextView
+                    android:id="@+id/tv_plus4_search_cor"
+                    android:layout_width="@dimen/_35dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_num"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/md_white_1000" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnaddcartnewproductsubcat_search_cor"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/colorBlue"
+                android:text="Add to cart" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

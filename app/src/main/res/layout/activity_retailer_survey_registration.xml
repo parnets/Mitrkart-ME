@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.RetailerSurveyRegistrationActivity">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fillViewport="true"-->
+<!--        android:scrollbars="none">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/gradient_green"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etName1RS"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="@dimen/_15dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/edittext_border_bg"-->
+<!--                android:hint="Retailer Name"-->
+<!--                android:padding="14dp" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etpermanentNumber2RS"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="@dimen/_15dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="@drawable/edittext_border_bg"-->
+<!--                android:hint="Enter Permanent Number"-->
+<!--                android:padding="14dp" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnRetailerSurveyRegister"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="@dimen/_20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="@dimen/_30dp"-->
+<!--                android:background="@drawable/button_round_bg"-->
+<!--                android:backgroundTint="@color/dark_orange"-->
+<!--                android:text="REGISTER"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+
+
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>

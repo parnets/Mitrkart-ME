@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/shpp_Emp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/SliderDots_Emp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:text="Your Cart"
+            android:textColor="@color/md_white_1000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/view_cart_recyclerview_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_35dp"
+            android:background="@color/colorLightBlue">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/Place_Order_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_cart_recyclerview_emp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_30dp"
+            android:background="@drawable/button_round_bg"
+            android:backgroundTint="@color/md_logo_orange"
+            android:fontFamily="sans-serif-medium"
+            android:text=" Place Order"
+            android:textAllCaps="false"
+            android:textColor="@color/colorSC_white"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</ScrollView>

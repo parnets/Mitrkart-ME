@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.RetailerSurveyRegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_orange_mobile_otp_bg"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etName1RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Retailer Name"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etpermanentNumber2RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Permanent Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvTypeOfFirm3RS"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="@dimen/_15dp"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@drawable/edittext_border_bg"-->
+            <!--                android:backgroundTint="@color/main_color_grey_300"-->
+            <!--                android:text="Enter Type Of Firm"-->
+            <!--                android:textColor="@color/colorBlue"-->
+            <!--                android:padding="14dp" />-->
+
+            <Spinner
+                android:id="@+id/spinnerTypeOfFirm3RS"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg" />
+
+            <EditText
+                android:id="@+id/etVillagePapulation4RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Village Population"
+                android:inputType="number"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etOwnerName5RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Owner or Owner's Name"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEmail6RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Email ID"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etDob7RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableRight="@drawable/ic_calendar"
+                android:hint="Select Date of Birth "
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAnniversaryDate8RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableRight="@drawable/ic_calendar"
+                android:hint="Select Anniversary Date"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etGstNo9RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter GST Number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etPanNo10RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter PAN Number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAddress11RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Address"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etLandMark12RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter LandMark"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAlternateNo13RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Alternate  Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etWhatsappNumber14RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Whatsapp Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etExperience15RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Experience"
+                android:inputType="number"
+                android:padding="14dp" />
+
+            <TextView
+                android:id="@+id/tvTypeOfRetailer16RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:padding="14dp"
+                android:text="Type Of Retailer?"
+                android:textColor="@color/colorBlue" />
+
+
+            <Spinner
+                android:id="@+id/spinnerTypeOfRetailer16RS"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg" />
+
+
+            <EditText
+                android:id="@+id/etTypeOfRetailerOther16RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Other Name"
+                android:padding="14dp"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/tvSocialMedia17RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:padding="14dp"
+                android:text="What are the social media you use often?"
+                android:textColor="@color/colorBlue" />
+
+
+            <CheckBox
+                android:id="@+id/chkWhatsapp17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:padding="10dp"
+                android:text="Whatsapp" />
+
+            <CheckBox
+                android:id="@+id/chkFacebook17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Facebook" />
+
+            <CheckBox
+                android:id="@+id/chkTwitter17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Twitter" />
+
+            <CheckBox
+                android:id="@+id/chkYoutube17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Youtube" />
+
+            <CheckBox
+                android:id="@+id/chkMessenger17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Messenger" />
+
+            <CheckBox
+                android:id="@+id/chkWeChat17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="We Chat" />
+
+            <CheckBox
+                android:id="@+id/chkInstagram17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Instagram" />
+
+            <CheckBox
+                android:id="@+id/chkLinkedin17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Linkedin" />
+
+            <CheckBox
+                android:id="@+id/chkSnapchat17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Snapchat" />
+
+            <CheckBox
+                android:id="@+id/chkPinterest17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Pinterest" />
+
+            <CheckBox
+                android:id="@+id/chkTelegram17RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:padding="10dp"
+                android:text="Telegram" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:backgroundTint="@color/main_color_grey_300"
+                        android:padding="14dp"
+                        android:text="Brand Name"
+                        android:textColor="@color/colorBlue"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tvAvailabilty18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:backgroundTint="@color/main_color_grey_300"
+                        android:padding="14dp"
+                        android:text="Availability"
+                        android:textColor="@color/colorBlue"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/tvFrequencyService18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:backgroundTint="@color/main_color_grey_300"
+                        android:padding="14dp"
+                        android:text="Frequency of Service"
+                        android:textColor="@color/colorBlue"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameHUL18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:padding="14dp"
+                        android:text="HUL"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyHUL18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceHUL18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameTATA18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="TATA"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyTATA18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2" />
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceTATA18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameITC18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="ITC"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyITC18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceITC18RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameNestle183RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Nestle"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyNestle183RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceNestle183RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameCadburys184RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Cadburys"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyCadburys184RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceCadburys184RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandNameKaleeshwari185RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Kaleeshwari"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabiltyKaleeshwari185RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyServiceKaleeshwari185RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Dabur186RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Dabur"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Dabur186RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Dabur186RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_britannia187RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Britannia"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_britannia187RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_britannia187RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Kwalitywalls188RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="kwality walls"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Kwalitywalls188RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Kwalitywalls188RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Hatsunagro189RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Hatsunagro"
+                          android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Hatsunagro189RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Hatsunagro189RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Heritage1810RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Heritage"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Heritage1810RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Heritage1810RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_MTR1811RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="MTR"
+                        android:layout_weight="2" />
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_MTR1811RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_MTR1811RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Sakthi1812RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Sakthi"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Sakthi1812RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Sakthi1812RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Amul1813RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Amul"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Amul1813RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Amul1813RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Everest1814RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Everest"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Everest1814RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Everest1814RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Haldirams1815RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Haldirams"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Haldirams1815RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Haldirams1815RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Colgate1816RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Colgate"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Colgate1816RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Colgate1816RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Motherdairy1817RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Mother dairy"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Motherdairy1817RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Motherdairy1817RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Parle1818RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Parle"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Parle1818RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Parle1818RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Biskfarm1819RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Bisk farm"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Biskfarm1819RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Biskfarm1819RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_ReiAgro1820RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Rei Agro"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_ReiAgro1820RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_ReiAgro1820RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Rucisoya1821RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Ruci Soya"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Rucisoya1821RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Rucisoya1821RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Idhayam1822RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Idhayam"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Idhayam1822RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Idhayam1822RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Jubilantfood1823RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Jubilant Foods"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Jubilantfood1823RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Jubilantfood1823RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Coke1824RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Coke"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Coke1824RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Coke1824RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Pepsi1825RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Pepsi"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Pepsi1825RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Pepsi1825RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Bisleri1826RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Bisleri"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Bisleri1826RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Bisleri1826RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_GSK1827RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="GSK"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_GSK1827RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_GSK1827RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Patanjali1828RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Patanjali"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Patanjali1828RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Patanjali1828RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_Marico1829RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="Marico"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_Marico1829RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_Marico1829RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBrandName_PG1830RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_16dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="14dp"
+                        android:text="PG"
+                        android:layout_weight="2"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAvailabilty_PG1830RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+                    <Spinner
+                        android:id="@+id/spinnerFrequencyService_PG1830RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/_15dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/edittext_border_bg"
+                        android:layout_weight="2"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvBuyStock19RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:padding="14dp"
+                android:text="Are you buying stocks from the whole sellers?"
+                android:textColor="@color/colorBlue" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupBuyStockOuside19RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBuyYes19RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_30dp"
+                        android:layout_weight="2"
+                        android:checked="false"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBuyNo19RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:checked="false"
+                        android:text="No" />
+                </LinearLayout>
+
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/etPlaceName19RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Place Name"
+                android:padding="14dp"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/etKmTravel19RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter KM'S to Travel"
+                android:padding="14dp"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/etHowOften19RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter How Often"
+                android:padding="14dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvServiceToDoor20RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:maxLines="4"
+                android:padding="14dp"
+                android:text="If we Service to your door step are you ready to order us through online?"
+                android:textColor="@color/colorBlue" />
+
+            <!--            <RadioGroup-->
+            <!--                android:id="@+id/radioGroupServiceToDoor20RS"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@+id/imageView"-->
+            <!--                android:layout_marginTop="@dimen/_15dp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="1">-->
+
+
+            <!--                <RadioButton-->
+            <!--                    android:id="@+id/radioButtonServiceToDoorYes20RS"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_horizontal"-->
+            <!--                    android:layout_marginLeft="@dimen/_50dp"-->
+            <!--                    android:checked="false"-->
+            <!--                    android:text="Yes" />-->
+
+            <!--                <RadioButton-->
+            <!--                    android:id="@+id/radioButtonServiceToDoorNo20RS"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center_horizontal"-->
+            <!--                    android:layout_marginLeft="@dimen/_50dp"-->
+            <!--                    android:checked="false"-->
+            <!--                    android:text="No" />-->
+
+
+            <!--            </RadioGroup>-->
+
+            <RadioGroup
+                android:id="@+id/radioGroupServiceToDoor20RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonServiceToDoorYes20RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_50dp"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonServiceToDoorNo20RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_50dp"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinnerServiceToDoor20RS"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:visibility="invisible" />
+
+
+            <!--            <CheckBox-->
+            <!--                android:id="@+id/chkDaily20RS"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="@dimen/_20dp"-->
+            <!--                android:layout_marginTop="@dimen/_15dp"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Daily" />-->
+
+            <!--            <CheckBox-->
+            <!--                android:id="@+id/chkAlternativeDay20RS"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="@dimen/_20dp"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Alternative Day" />-->
+
+            <!--            <CheckBox-->
+            <!--                android:id="@+id/chkWeekly20RS"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="@dimen/_20dp"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Weekly" />-->
+
+            <!--            <CheckBox-->
+            <!--                android:id="@+id/chkAlternativeWeek20RS"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="@dimen/_20dp"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Alternative Week" />-->
+
+            <!--            <CheckBox-->
+            <!--                android:id="@+id/chkMonth20RS"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="@dimen/_20dp"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Month" />-->
+
+            <EditText
+                android:id="@+id/etAverageCustomerPerDay21RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Average Customer Walkin's Per Day"
+                android:inputType="number"
+                android:maxLines="2"
+                android:padding="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:padding="14dp"
+                android:text="What is your Average Sales?"
+                android:textColor="@color/colorBlue" />
+
+            <EditText
+                android:id="@+id/etAverageSalesPerWeek22RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Average Sales Per Week"
+                android:inputType="number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etAverageSalesMoth23RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Average Sales Per Month"
+                android:inputType="number"
+                android:padding="14dp" />
+
+
+            <TextView
+                android:id="@+id/tvfinance24Rs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:maxLines="2"
+                android:padding="14dp"
+                android:text="Would you like to have the credit facility provided by the financiers?"
+                android:textColor="@color/colorBlue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radioGroupFinanceAmount24RS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView"
+                    android:layout_marginTop="@dimen/_15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <RadioButton
+                        android:id="@+id/radioButtonetFinanceAmountYes24RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_50dp"
+                        android:checked="false"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonetFinanceAmountNo24RS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_50dp"
+                        android:checked="false"
+                        android:text="No" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/etFinanceAmount24RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Enter Expected Finance Amount"
+                android:inputType="number"
+                android:padding="14dp"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/tv24RS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:backgroundTint="@color/main_color_grey_300"
+                android:padding="14dp"
+                android:text="Do you have Insurance if not would you like to have an Insurance?"
+                android:textColor="@color/colorBlue" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupShopInsuranceAvailable24RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvShopInsuranceAvailable24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Shop Insurance Available?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonShopInsuranceAvailableYes24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonShopInsuranceAvailableNo24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupShopInsuranceRequired24RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvShopInsuranceRequired24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Shop Insurance Required?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonShopInsuranceRequiredYes24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonShopInsuranceRequiredNo24RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupMedicalInsuranceAvailable25RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvMedicalInsuranceAvailable25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Medical Insurance Available?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMedicalInsuranceAvailableYes25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMedicalInsuranceAvailableNo25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupMedicalInsuranceRequired25RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvMedicalInsuranceRequired25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Medical Insurance Required?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMedicalInsuranceRequiredYes25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMedicalInsuranceRequiredNo25RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupLifeInsuranceAvailable26RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvLifeInsuranceAvailable26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Life Insurance Available?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonLifeInsuranceAvailableYes26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonLifeInsuranceAvailableNo26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupLifeInsuranceRequired25RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvLifeInsuranceRequired26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Life Insurance Required?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonLifeInsuranceRequiredYes26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonLifeInsuranceRequiredNo26RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupTermInsuranceAvailable27RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvTermInsuranceAvailable27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Term Insurance Available?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTermInsuranceAvailableYes27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTermInsuranceAvailableNo27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroupTermInsuranceRequired27RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/tvTermInsuranceRequired27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_border_bg"
+                    android:padding="14dp"
+                    android:text="Term Insurance Required?"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTermInsuranceRequiredYes27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonTermInsuranceRequiredNo27RS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_weight="2"
+                    android:checked="false"
+                    android:text="No" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/LiveLocation28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableLeft="@drawable/ic_locations"
+                android:padding="10dp"
+                android:text="  LiveLocation"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_border_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Latitude : "
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Longitude : "
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Country Name : "
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="State Name : "
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address : "
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRetailerSurveyRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/dark_orange"
+                android:text="REGISTER"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

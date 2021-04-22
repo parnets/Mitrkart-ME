@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peacock"
+    android:orientation="vertical"
+    tools:context=".Activity.RetailerRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginBottom="@dimen/_100dp"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/photo_Retailer1R"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="@drawable/ic_person"-->
+            <!--                android:backgroundTint="@color/md_grey_300" />-->
+
+
+            <TextView
+                android:id="@+id/profile_EmployeeName_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/_5dp"
+                android:paddingTop="@dimen/_20dp"
+                android:text=" Employee Name"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/_30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:text="mobile"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profileMobile_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="mobile"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="password"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profilePassword_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="password"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Employee Code"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_EmployeeCode_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="EmployeeCode"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Personal Email"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_CompanyEmail_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="CompanyEmail"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:background="@color/md_grey_300" />
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="@dimen/_10dp"-->
+            <!--                android:layout_marginRight="@dimen/_20dp"-->
+            <!--                android:maxLines="2"-->
+            <!--                android:text="outlet_name"-->
+            <!--                android:textColor="@color/colorBlack"-->
+            <!--                android:textSize="@dimen/_16dp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/profileOutletName_emp"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginTop="@dimen/_5dp"-->
+            <!--                android:layout_marginRight="@dimen/_20dp"-->
+            <!--                android:layout_marginBottom="@dimen/_5dp"-->
+            <!--                android:maxLines="2"-->
+            <!--                android:text="outlet_name"-->
+            <!--                android:textColor="@color/md_grey_300"-->
+            <!--                android:textSize="@dimen/_16dp" />-->
+
+            <!--            <View-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:layout_marginRight="20dp"-->
+            <!--                android:background="@color/md_grey_300" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Personal Email"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_PersonalEmail_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="PersonalEmail"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Residential Address"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_ResidentialAddress_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="ResidentialAddress"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Office Address"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_OfficeAddress_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="OfficeAddress"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Aadhar Number"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_AadharNo_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="AadharNo"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="Pan Number"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+            <TextView
+                android:id="@+id/profile_PanNo_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:maxLines="2"
+                android:text="PanNo"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="DOB"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16dp" />
+
+
+
+            <TextView
+                android:id="@+id/profile_DOB_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:maxLines="2"
+                android:text="DOB"
+                android:textColor="@color/md_grey_300"
+                android:textSize="@dimen/_16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/md_grey_300" />
+
+
+
+
+            <Button
+                android:id="@+id/btnUpdateProfile_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_40dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/md_grey_300"
+                android:text="Edit Profile"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_below="@+id/btnUpdateProfile_emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="For Queries: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:text="Contact mitrakarte"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_phone"
+                android:text="   080-2963 1899"
+                android:textAllCaps="true"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_email"
+                android:text="   info@mitrakarte.com"
+                android:textAllCaps="true"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_60dp"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/ic_website"
+                android:text="   http://mitrakart.com/"
+                android:textAllCaps="false"
+                android:textColor="@color/main_color_grey_300"
+                android:textColorLink="@color/main_color_grey_300"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginBottom="20dp"-->
+        <!--            android:orientation="vertical"-->
+        <!--            >-->
+
+        <!--            <View-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="2dp"-->
+        <!--                android:background="@color/md_grey_300" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_below="@+id/btnUpdateProfile_emp"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:text="For Queries: "-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="2dp"-->
+        <!--                android:text="Contact mitrakarte"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:autoLink="phone"-->
+        <!--                android:drawableLeft="@drawable/ic_phone"-->
+        <!--                android:text="   080-2963 1899"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColorLink="@color/md_black_1000"-->
+        <!--                android:textIsSelectable="false"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:autoLink="phone"-->
+        <!--                android:drawableLeft="@drawable/ic_email"-->
+        <!--                android:text="   info@mitrakarte.com"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColorLink="@color/md_black_1000"-->
+        <!--                android:textIsSelectable="false"-->
+        <!--                android:textStyle="bold" />-->
+
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="@dimen/_5dp"-->
+        <!--                android:autoLink="web"-->
+        <!--                android:drawableLeft="@drawable/ic_website"-->
+        <!--                android:text="   http://mitrakart.com/"-->
+        <!--                android:textAllCaps="false"-->
+        <!--                android:textColorLink="@color/md_black_1000"-->
+        <!--                android:textIsSelectable="false"-->
+        <!--                android:textStyle="bold" />-->
+
+
+        <!--        </LinearLayout>-->
+
+    </ScrollView>
+
+</LinearLayout>

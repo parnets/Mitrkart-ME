@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_white_mobile_otp_bg"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_Emp"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize">
+
+        <!--   <androidx.appcompat.widget.Toolbar
+               android:id="@+id/toolbar_Emp"
+               android:layout_width="wrap_content"
+               android:layout_height="?attr/actionBarSize"
+               app:menu="@menu/menu_item_employee">-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginRight="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/product_title_Emp"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_filter_Emp"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/header_cart_Emp"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_cartValue_Emp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/header_cart_Emp"
+                android:layout_alignRight="@+id/header_cart_Emp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="0"
+                android:textColor="@color/md_white_1000"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/serach_Emp"
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_10dp"
+                android:text="search"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12dp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/et_search_Emp"
+                    android:layout_width="@dimen/_150dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_weight="6"
+                    android:background="@drawable/search_background"
+                    android:drawableRight="@drawable/ic_search"
+                    android:hint="search"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:paddingRight="@dimen/_5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_cart_emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_cart"
+                    android:drawableTint="@color/colorBlack"
+                    android:drawablePadding="-15dp"
+                    android:gravity="center"
+                    android:hint=""
+                    android:paddingLeft="@dimen/_10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_wallet"
+                    android:drawableTint="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

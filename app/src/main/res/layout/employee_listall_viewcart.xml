@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_all_product6f_Emp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="1dp"
+    android:layout_margin="@dimen/_5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/grid_color_selector">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/category_item_image6f_Emp"
+                android:layout_width="130dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="100dp" />
+
+                  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/_30dp">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="5dp"
+                          android:ellipsize="marquee"
+                         android:layout_marginRight="@dimen/_50dp"
+                          android:gravity="center"
+                          android:maxLines="2"
+                          android:text=" Name"
+                          android:textColor="@color/colorBlack"
+                          android:textSize="14dp"
+                          android:textStyle="bold"
+                          android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/category_item_title6f_Emp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                
+                android:textStyle="bold"
+                android:ellipsize="marquee"
+                android:text="Fruits"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/alaska_sky"
+                android:layout_margin="5dp"
+                android:textSize="14dp"
+                android:visibility="visible"/>
+                  </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/_30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/_50dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text=" Price"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/category_item_title8f_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:text="    ₹"
+                    android:maxLines="2"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/category_item_title7f_Emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:text="Fruits"
+                    android:maxLines="2"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:visibility="visible"/>
+                
+                
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Total Quantity"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/produt_total_Quantity_emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Quantity"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Total Price"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:text="     ₹"
+                    android:maxLines="2"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:visibility="visible"/>
+
+
+                <TextView
+                    android:id="@+id/produt_total_Price_emp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="Total Price"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

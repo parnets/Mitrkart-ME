@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinnerEg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_border_bg"/>
+    <TextView
+        android:id="@+id/tvEg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subit"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnEg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"/>
+
+</LinearLayout>

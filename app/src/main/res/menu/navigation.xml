@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_person"
+        android:title="My Account"/>
+
+    <item
+        android:id="@+id/viewcart"
+        android:icon="@drawable/ic_cart"
+        android:title="View Cart" />
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/ic_order"
+        android:title="Your orders" />
+
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="Wallet" />
+
+
+    <!--    <item-->
+<!--        android:id="@+id/orders_history"-->
+<!--        android:icon="@drawable/ic_order_history"-->
+<!--        android:iconTint="@color/colorBlack"-->
+<!--        android:title="Order history" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/wishlist"-->
+<!--        android:icon="@drawable/ic_wishlist"-->
+<!--        android:title="Wishlist" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/wallet"-->
+<!--        android:icon="@drawable/ic_wallet"-->
+<!--        android:title="Wallet"/>-->
+<!--    <item-->
+<!--        android:id="@+id/delivery_address"-->
+<!--        android:icon="@drawable/ic_location"-->
+<!--        android:title="Delivery address" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/change_passowrd"-->
+<!--        android:icon="@drawable/ic_location"-->
+<!--        android:title="Chang Passowrd" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/offers"-->
+<!--        android:icon="@drawable/ic_offers"-->
+<!--        android:title="Offers" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_share"-->
+<!--        android:icon="@drawable/ic_share"-->
+<!--        android:title="Share" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_rate"-->
+<!--        android:icon="@drawable/ic_rating"-->
+<!--        android:title="Rate App" />-->
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+
+
+
+
+</menu>

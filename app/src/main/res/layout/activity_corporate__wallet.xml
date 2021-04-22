@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:paddingLeft="@dimen/_10dp"
+        android:text="Wallet Amount"
+        android:textColor="@color/md_black_1000"
+        android:textSize="@dimen/_20dp" />
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_10dp"
+        android:text="Current balance"
+        android:textSize="@dimen/_20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:paddingLeft="@dimen/_10dp"
+        android:text="Rs. 0"
+        android:textSize="@dimen/_40dp"
+        android:textColor="@color/colorBlue"/>
+
+    <Button
+        android:id="@+id/btn_add_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:background="@drawable/button_round_bg"
+        android:paddingLeft="@dimen/_10dp"
+        android:text="Add Money"
+        android:textColor="@color/md_white_1000" />
+
+
+</LinearLayout>

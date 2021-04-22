@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/new_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_add_symbol"
+            android:drawableTint="@color/md_white_1000"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="@dimen/_10dp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:text="Add a new address"
+            android:background="@color/md_logo_orange"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/_25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_60dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:text="Kiran"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textSize="@dimen/_20dp"-->
+<!--                android:layout_marginTop="20dp"/>-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/addressoforder"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:paddingLeft="@dimen/_25dp"-->
+<!--                android:text="Flat No.106 A2, Shilpitha Royal Apartment #24, Shakthi layout, Sadaramangala Main Road, Kodigihalli, krpuram, opp skylark, bangalore-560067 "-->
+<!--                android:textSize="@dimen/_17sp" />-->
+
+<!--        </RelativeLayout>-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:id="@+id/mobile_number"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="@dimen/_25dp"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="@dimen/_20dp"-->
+<!--                android:inputType="number"-->
+<!--                android:text="9988776655"/>-->
+
+<!--        </RelativeLayout>-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/key_address_list"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingLeft="@dimen/_5dp"
+            android:paddingRight="@dimen/_5dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_below="@+id/ll1"
+            android:scrollbars="none"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="outsideOverlay"
+            android:background="@color/colorLightBlue">
+        </androidx.recyclerview.widget.RecyclerView>
+
+<!--        <TextView-->
+<!--            android:id="@+id/add_submit2"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="@dimen/_200dp"-->
+<!--            android:layout_height="@dimen/_50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@drawable/button_round_bg"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="@dimen/_20dp"-->
+<!--            android:layout_marginBottom="@dimen/_10dp"-->
+<!--            android:text="SUBMIT"-->
+<!--            android:textColor="@color/md_white_1000"/>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

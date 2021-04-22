@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1_Emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/im_slider1_Emp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:id="@+id/SliderDots_Emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_slider1_Emp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/shpp_Emp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/SliderDots_Emp"
+            android:background="@color/colorBlue"
+            android:gravity="center"
+            android:text="Category"
+            android:textColor="@color/md_white_1000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_category_Emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1_Emp"
+        android:background="@color/colorLightBrown"
+        android:paddingLeft="@dimen/_10dp"
+        android:paddingTop="@dimen/_15dp"
+        android:paddingRight="@dimen/_10dp"
+        android:paddingBottom="@dimen/_15dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_all_Emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_category_Emp"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:background="@color/colorLightBlue"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="horizontal" />
+
+
+</RelativeLayout>

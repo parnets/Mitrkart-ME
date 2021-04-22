@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_all_subcat_Emp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/subcategory_item_image_Emp"
+            android:layout_width="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="60dp" />
+
+
+        <TextView
+            android:id="@+id/subcategory_item_name_Emp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:ellipsize="marquee"
+            android:text="Subcategory Name"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/alaska_sky"
+            android:layout_margin="5dp"
+            android:textSize="14dp"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

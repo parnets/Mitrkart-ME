@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HomeActivity">
+
+    <Button
+        android:id="@+id/btnRetailerSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_80dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="Retailer Survey"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnRetailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="Retailer Registration"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnCorporate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="Corporate Registration"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnKeyAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="Key Accounts Registration"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="Customer Registration"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_bg"
+        android:text="logout "
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+</LinearLayout>

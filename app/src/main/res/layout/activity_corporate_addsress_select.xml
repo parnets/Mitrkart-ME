@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_blue_mobile_otp_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/_60dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <!--    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:inputType="textCapSentences"
+                    android:text="Select PinCode:"/>-->
+
+
+
+            <!-- <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:inputType="textCapSentences"
+                 android:textSize="12dp"
+                 android:textColor="@color/md_logo_orange"
+                 android:text="Delivery is available only for this PinCode:"/>
+ -->
+            <!--  <RelativeLayout
+                  android:id="@+id/rlcat"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:background="@drawable/search_background"
+                  android:layout_margin="@dimen/_10dp"
+                  android:padding="10dp">
+
+                  <Spinner
+                      android:id="@+id/branch_pincode"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent" />
+              </RelativeLayout>-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp">
+
+                <EditText
+                    android:id="@+id/et_addr_name_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:hint="Name*"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:maxLength="40"
+                    android:background="@drawable/edittext_border_bg"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp">
+
+                <EditText
+                    android:id="@+id/et_addr_email_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:hint="Email*"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:maxLength="40"
+                    android:background="@drawable/edittext_border_bg"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_phno_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:hint="phone no*"
+                    android:textSize="@dimen/_13sp"
+                    android:maxLength="10"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/et_addr_addr_cor"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80dp"
+                android:background="@drawable/edittext_border_bg"
+                android:layout_marginTop="10dp"
+                android:hint="Add Address*"
+                android:gravity="start"
+                android:textSize="@dimen/_13sp"
+                android:inputType="textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456798abcdefghijklmnopqrstuvwxyz ,:-_/"
+                android:paddingLeft="10dp"
+                android:maxLength="200"
+                android:paddingTop="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_locality_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:hint="Locality"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:maxLength="30"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_Pin_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:hint="Pincode: "
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="number"
+                    android:maxLength="6"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_landmark_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:hint="Landmark"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:maxLength="30"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_city_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:hint="City*"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_addr_state_cor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:paddingLeft="@dimen/_10dp"
+                    android:background="@drawable/edittext_border_bg"
+                    android:textSize="@dimen/_13sp"
+                    android:inputType="textCapSentences"
+                    android:hint="State*"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <EditText
+                                android:id="@+id/et_addr_country_cor"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_50dp"
+                                android:paddingLeft="@dimen/_10dp"
+                                android:background="@drawable/edittext_border_bg"
+                                android:textSize="@dimen/_13sp"
+                                android:inputType="textCapSentences"
+                                android:hint="Country*"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <Button
+                    android:id="@+id/add_submit"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_height="@dimen/_50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_round_bg"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_20dp"
+                    android:layout_marginBottom="@dimen/_10dp"
+                    android:text="SUBMIT"
+                    android:textColor="@color/md_white_1000"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.core.widget.NestedScrollView>

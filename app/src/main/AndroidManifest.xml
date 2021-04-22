@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Mitrakarte_ME.meappmintrakarte">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mitrakarteicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mitrakarteicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Employee_Product_Search_Activity"></activity>
+        <activity android:name=".Activity.Corporate_Product_Search_Activity" />
+        <activity android:name=".Activity.KeyAccount_Product_Search_Activity" />
+        <activity android:name=".Activity.Employee_OrderInvoiceActivity" />
+        <activity android:name=".Activity.Corporate_OrderInvoiceActivity" />
+        <activity android:name=".Activity.KeyAccount_OrderInvoiceActivity" />
+        <activity android:name=".Activity.Employee_WalletActivity" />
+        <activity android:name=".Activity.Corporate_WalletActivity" />
+        <activity android:name=".Activity.KeyAccount_WalletActivity" />
+        <activity android:name=".Activity.EmployeeForgetPasswordActivity" />
+        <activity android:name=".Activity.TermsConditionActivityRetailer" />
+        <activity android:name=".Activity.CorporateForgetPasswordActivity" />
+        <activity android:name=".Activity.KeyAccountForgetPasswordActivity" />
+        <activity android:name=".Activity.ForgetPasswordActivity" />
+        <activity android:name=".Activity.EmployeeProfileUpdateActivity" />
+        <activity android:name=".Activity.EmployeeProfileActivity" />
+        <activity android:name=".Activity.EmployeeOrderProductViewActivity" />
+        <activity android:name=".Activity.EmployeeMyOrderActivity" />
+        <activity android:name=".Activity.EmployeeActivityThankYou" />
+        <activity
+            android:name=".Activity.EmployeeAddsressSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateActivityThankYou"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateOrderProductViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateMyOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateAddsressSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateProfileUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.OrderProductViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountProfileUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccount_MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeAddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeDeliverAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeViewcartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeProductViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeProductsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeSlidingBarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeMobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateAddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateDeliverAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateViewcartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateProductViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountProductViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EmployeeRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountProductsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.RetailerMobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CustomerMobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountMobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FirstActivityAccountSelection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateMobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CustomerRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccountsRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.RetailerRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.RetailerSurveyRegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MELoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MobileOtpVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MERegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KeyAccount_ViewcartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.DeliverAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ActivityThankYou"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AddsressSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CorporateProductsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

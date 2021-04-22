@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.CorporateRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_blue_mobile_otp_bg"
+            android:orientation="vertical">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/photoRetailer"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="100dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="@drawable/ic_person"-->
+            <!--                android:backgroundTint="@color/colorBlue" />-->
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:gravity="center_horizontal"-->
+            <!--                android:text="Add Photo"/>-->
+
+
+            <EditText
+                android:id="@+id/etEmployeeName1_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Employee Name"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEmployeeCode2_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Employee Code"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etResidentialAddress3_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Residential Address"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etOfficeAddress4_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Office Address"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etAadharNo5_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Aadhar Number"
+                android:padding="14dp" />
+
+
+
+            <EditText
+                android:id="@+id/etPanNo6_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Pan Number"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEmpCompanyEmail7_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Employee Official Email ID "
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etEmpPersonalEmail8_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Personal Email Id"
+                android:padding="14dp" />
+
+            <EditText
+                android:id="@+id/etDOB9_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:drawableRight="@drawable/ic_calendar"
+                android:background="@drawable/edittext_border_bg"
+                android:hint="DOB"
+                android:padding="14dp" />
+
+
+            <EditText
+                android:id="@+id/etPassword10_prou_Emp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@drawable/edittext_border_bg"
+                android:hint="Password"
+                android:padding="14dp" />
+
+
+
+
+            <Button
+                android:id="@+id/btn_employee_Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="@dimen/_30dp"
+                android:background="@drawable/button_round_bg"
+                android:backgroundTint="@color/colorOrange"
+                android:text="Update Profile"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_all_productproduct"
+    card_view:cardCornerRadius="2dp"
+    android:layout_marginTop="10dp"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/grid_color_selector"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="4">
+            <ImageView
+                android:id="@+id/category_item_imageproduct"
+                android:layout_width="@dimen/_120dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="@dimen/_80dp" />
+
+
+            <TextView
+                android:id="@+id/category_item_titleproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+
+
+                android:text="Fruits"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:layout_marginRight="15dp"
+                android:maxLines="2"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:visibility="visible"/>
+            <TextView
+                android:id="@+id/category_item_titleproductQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:ellipsize="marquee"
+                android:text="Fruits"
+                android:layout_marginLeft="50dp"
+                android:maxLines="2"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:visibility="visible"/>
+            <TextView
+                android:id="@+id/productdistriprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:ellipsize="marquee"
+                android:text="Fruits"
+                android:layout_marginLeft="50dp"
+                android:maxLines="2"
+                android:textColor="@color/alaska_sky"
+                android:textSize="14dp"
+                android:visibility="visible"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/productdistriCase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:layout_marginLeft="@dimen/_50dp"
+                    android:text="Pieces in Case:"
+                    android:maxLines="2"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/category_item_titleproductbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:layout_marginLeft="2dp"
+                    android:text="20"
+                    android:maxLines="2"
+                    android:textColor="@color/alaska_sky"
+                    android:textSize="14dp"
+                    android:visibility="visible"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:id="@+id/rlBtn"
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:background="@drawable/button_round_bg"
+                >
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_minus2"
+                    android:layout_width="25dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_height="25dp"
+                    android:textColor="@color/md_white_1000"
+                    android:text="-"/>
+                <EditText
+                    android:id="@+id/tv_num2"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_toRightOf="@+id/tv_minus"
+                    android:background="@null"
+                    android:textSize="@dimen/_20dp"
+                    android:gravity="center"
+                    android:textColor="@color/md_black_1000"
+                    android:fontFamily="sans-serif"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:text="1"
+                    android:maxLength="4"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_plus2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_num"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textColor="@color/md_white_1000" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnaddcartnewproduct"
+                android:layout_marginLeft="30dp"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="@dimen/_40dp"
+                android:text="Add to cart"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@drawable/button_round_bg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

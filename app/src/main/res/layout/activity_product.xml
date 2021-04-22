@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/cart_empty"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:layout_below="@+id/SliderDots"
+        android:background="@color/colorOrange"
+        android:gravity="center"
+        android:text="Sub Category"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/_80dp"
+        android:paddingTop="@dimen/_20dp"
+        android:paddingLeft="@dimen/_10dp"
+        android:paddingRight="@dimen/_10dp"
+        android:paddingBottom="@dimen/_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subcategoryKeyAcc"
+        android:background="@color/colorLightBrown">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_10dp"
+        android:layout_below="@id/subcategoryKeyAcc"
+        android:id="@+id/categoryProduct"
+        android:background="@color/colorLightBlue">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
+
+
+   <!-- <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subCatlist"
+        android:id="@+id/subCatlist2">
+
+    </androidx.recyclerview.widget.RecyclerView>-->
+  <!--  <LinearLayout
+        android:layout_below="@+id/subCatlist3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LL_add_address"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_60dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:text="Add Address"/>
+
+
+    </LinearLayout>
+-->
+
+      <!--  <RelativeLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LL_add_address">
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Search"
+                android:visibility="gone"
+                android:drawableLeft="@drawable/search_background"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:focusableInTouchMode="true"
+                android:clickable="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </RelativeLayout>
+-->
+
+       <!-- <ListView
+            android:id="@+id/store_list"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:scrollbarStyle="outsideOverlay" >
+
+        </ListView>-->
+
+      <!--  <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:id="@+id/RL_cart_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                layout="@layout/cart_checkout" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/RL_address_select"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <include
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/add_new_address" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal">
+        </ProgressBar>
+
+
+    </LinearLayout>
+
+-->
+
+
